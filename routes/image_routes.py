@@ -6,7 +6,7 @@ router = APIRouter()
 
 class ImageRequest(BaseModel):
     prompt: str
-    num_images: int = 3
+    num_images: int = 3  # Generate three images by default
 
 @router.post("/generate-image")
 def generate_image(request: ImageRequest):
