@@ -1,3 +1,6 @@
+# routes/image_routes.py
+
+
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from agents.image_generator_agent import ImageGeneratorAgent
